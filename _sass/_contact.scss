@@ -17,14 +17,17 @@
   padding: 25px;
 }
 .contact-page h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $red;
   text-align: center;
-  padding: 25px;
+  padding: 75px;
+  margin-bottom: 0px;
 }
 
 .social-media-row {
   display: flex;
   justify-content: center;
-  padding: 25px;
 }
 
 .social-media-row .fa {

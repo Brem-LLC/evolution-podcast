@@ -29,6 +29,16 @@
   color: #999;
   font-style: italic;
 }
+
+@media (min-width: 500px) {
+.portrait-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 50px;
+}}
+
 .about-page p {
   line-height: 1.8em;
   font-weight: lighter;
