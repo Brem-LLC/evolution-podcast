@@ -1,0 +1,69 @@
+---
+# This ensures Jekyll compiles the SASS
+---
+// Import Files from _sass directory
+@import 'variables';
+@import 'candor';
+@import 'navigation';
+@import 'footer';
+@import 'home';
+@import 'about';
+@import 'contact';
+
+/* Misc Element Styling */
+
+/* Newwletter Styling */
+
+.newsletter {
+  background-color: $red;
+  color: $black;
+  padding: 25px;
+}
+
+.newsletter h2 {
+  text-align: center;
+  padding: 25px;
+}
+
+.newsletter .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .newsletter form {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.newsletter form input {
+  border-radius: 3px;
+  border: 0px solid tranparent;
+  width: 125px;
+  height: 50px;
+}
+
+@media (min-width: 800px) {
+  .newsletter form input {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+}
+
+.newsletter form button {
+  border-radius: 3px;
+  background-color: $black;
+  color: $red;
+  width: 116px;
+}
+
+@media (min-width: 800px) {
+  .newsletter button {
+    width: 30%;
+  }
+}

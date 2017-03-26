@@ -1,0 +1,119 @@
+.contact-hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: linear-gradient(180deg,rgba(0,0,0,.57) 10%,#000), url('/assets/images/contact-hero.jpg');
+  background-size: cover;
+  height: 300px;
+}
+
+@media (min-width: 800px) {
+  .contact-hero {
+  height: 500px;
+}
+}
+
+.contact-page {
+  padding: 25px;
+}
+.contact-page h2 {
+  text-align: center;
+  padding: 25px;
+}
+
+.social-media-row {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.social-media-row .fa {
+  margin-right: 20px;
+}
+
+.social-media-row .fa:last-of-type {
+  margin-right: 0px;
+}
+
+.fa-facebook {
+  color: $facebook;
+}
+
+.fa-facebook:hover {
+  color: lighten($facebook, 20%);
+  cursor: pointer;
+}
+
+.fa-twitter {
+  color: $twitter;
+}
+
+.fa-twitter:hover {
+  color: lighten($twitter, 20%);
+  cursor: pointer;
+}
+
+.fa-instagram {
+  color: $instagram;
+}
+
+.fa-instagram:hover {
+  color: lighten($instagram, 20%);
+  cursor: pointer;
+}
+
+.fa-snapchat {
+  color: $snapchat;
+}
+
+.fa-snapchat:hover {
+  color: lighten($snapchat, 20%);
+  cursor: pointer;
+}
+
+.fa-map {
+  color: $google;
+}
+
+.fa-map:hover {
+  color: lighten($google, 20%);
+  cursor: pointer;
+}
+
+.contact-page-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.contact-page-form > input, textarea, button {
+  width: 90%;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: 0px solid transparent;
+  background-color: $black;
+  color: #f7f7f7;
+}
+
+@media (min-width: 800px) {
+  .contact-page-form > input, textarea, button {
+    width: 50%;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 800px) {
+  .contact-page-form > textarea {
+    height: 100px;
+  }
+}
+
+.contact-page-form > button {
+  margin-top: 15px;
+  background-color: $red;
+  color: #fff;
+  font-weight: bold;
+}
