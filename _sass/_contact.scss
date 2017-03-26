@@ -117,3 +117,10 @@
   color: #fff;
   font-weight: bold;
 }
+
+.contact-page-form > button:hover {
+  margin-top: 15px;
+  background-color: darken($red, 20%);
+  color: #fff;
+  font-weight: bold;
+}
