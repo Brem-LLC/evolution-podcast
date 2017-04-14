@@ -15,6 +15,11 @@ nav > .container {
   align-items: center;
 }
 
+nav .nine.columns {
+  width: 100%;
+  margin-left: 0px;
+}
+
 @media (min-width: 800px) {
   nav > .container {
     flex-direction: row;
@@ -39,7 +44,7 @@ nav > .container {
 .nav-item {
   list-style: none;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 24px;
   background-color: $red;
   padding: 5px 15px;
   border-radius: 3px;
@@ -51,7 +56,6 @@ nav > .container {
 .nav-item:hover {
   list-style: none;
   font-weight: bold;
-  font-size: 32px;
   background-color: $black;
   padding: 5px 15px;
   border-radius: 3px;
