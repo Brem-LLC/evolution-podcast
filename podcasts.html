@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+  {% for post in site.posts %}
+    <div class="list-episode">
+      <h3>{{ post.title }}</h3>
+      <p class="podcast-meta">Author: {{ post.author }}</p>
+      <p class="podcast-meta">Date Published: {{ post.date | date: "%B %-d, %Y" }}</p>
+      <p class="podcast-meta">Length: {{ post.duration }}</p>
+      <p class="podcast-meta">Size: {{ post.size }}</p>
+      <p class="podcast-description">{{ post.excerpt | xml_escape }}</p><br>
+      <audio controls>
+        <source src="{{ post.link }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </div>
+  {% endfor %}
+  </div>
+</div>
