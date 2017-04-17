@@ -25,7 +25,7 @@
 			<itunes:name>Michael Spartz</itunes:name>
 			<itunes:email>michael@theevolutionpodcast.com</itunes:email>
 		</itunes:owner>
-		<itunes:image href="{{ site.url }}/images/itunes.png" />
+		<itunes:image href="{{ site.url }}/assets/images/itunes.png" />
 		<itunes:category text="Sports" />
 		<itunes:category text="Entertainment" />
 		<itunes:category text="Business" />
