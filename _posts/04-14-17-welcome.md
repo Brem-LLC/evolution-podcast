@@ -5,7 +5,7 @@ author: "Michael Spartz"
 duration: "04:21"
 size: 3.9 MB
 date: 2017-04-14
-tags:
+keywords:
 - Sports
 - Entertainment
 - Business

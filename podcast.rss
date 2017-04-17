@@ -1,21 +1,22 @@
 ---
+
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
 	<channel>
 		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />
 		<title>{{ site.title }}</title>
-		<description>{{ site.description }}</description>
+		<description>{{ site.description | xml_escape }}</description>
 		<link>{{ site.url }}</link>
 		<language>{{ site.lang }}</language>
 		<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
 		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
-		<copyright>2017</copyright>
+		<copyright>2014-{{ site.time | "%Y" }} {{ site.title }}</copyright>
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<image>
 			<link>{{ site.url }}</link>
-			<url>{{ site.url }}/assets/images/itunes.png</url>
+			<url>{{ site.url }}/images/itunes.png</url>
 			<title>{{ site.title }}</title>
 		</image>
 		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
@@ -26,34 +27,15 @@
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-		<itunes:image href="{{ site.url }}/assets/images/itunes.png" />
-		<itunes:category text="Business" />
-		<itunes:category text="Startups" />
-    <itunes:category text="Sports" />
-    <itunes:category text="Entertainment" />
-		<itunes:category text="Entrepreneurs" />
-		<itunes:category text="Leadership" />
-		<itunes:category text="Speakers" />
-		<itunes:category text="Entrepreneurs" />
-		<itunes:category text="Golf" />
-		<itunes:category text="Basketball" />
-		<itunes:category text="Baseball" />
-		<itunes:category text="Football" />
-		<itunes:category text="Tennis" />
-		<itunes:category text="LFL" />
-		<itunes:category text="Soccer" />
-		<itunes:category text="Boxing" />
-		<itunes:category text="MMA" />
-		<itunes:category text="Actor" />
-		<itunes:category text="Actress" />
-		<itunes:category text="Coach" />
-		<itunes:category text="Agent" />
-		<itunes:category text="Holiday" />
-		<itunes:category text="President" />
+		<itunes:image href="{{ site.url }}/images/itunes.png" />
+		<itunes:category text="Music" />
 		<itunes:category text="Technology">
 			<itunes:category text="Podcasting" />
 		</itunes:category>
-		<itunes:explicit>no</itunes:explicit>
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Philosophy" />
+		</itunes:category>
+		<itunes:explicit>yes</itunes:explicit>
 		{% for post in site.posts %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
@@ -61,13 +43,13 @@
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 				<description>{{ post.excerpt | xml_escape }}</description>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-				<enclosure url="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
+				<enclosure url="http:{{ post.file }}" length="{{ post.duration }}" type="audio/mp3"/>
 				<itunes:author>{{ site.author }}</itunes:author>
 				<itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
 				<itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
 				<itunes:duration>{{ post.duration }}</itunes:duration>
 				<itunes:keywords>{{ post.keywords }}</itunes:keywords>
-				<itunes:image href="{{ site.url }}/images/itunes.png" />
+				<itunes:image href="{{ site.url }}/assests/images/itunes.png" />
 				<itunes:explicit>{{ post.explicit }}</itunes:explicit>
 				<itunes:block>{{ post.block }}</itunes:block>
 			</item>

@@ -13,16 +13,6 @@
 # in the templates via {{ site.myvariable }}.
 
 # General Site Settings
-
-title: The Evolution Podcast
-email: michael@theevolutionpodcast.com
-description: "Giving sports, entertainment, and business leaders a platform to tell personal and professional stories of their own 'Evolution'."
-subtitle: "Today's best sports, entertainment and business stories"
-url: theevolutionpodcast.com
-lang: en
-author: Michael Spartz
-copyright: "&amp; 2017"
-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://theevolutionpodcast.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -32,3 +22,14 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Podcast Feed Settings
+
+title:          The Evolution Podcast
+email:          michael@theevolutionpodcast.com
+description:    "Giving sports, entertainment, and business leaders a platform to tell personal and professional stories of their own 'Evolution'."
+subtitle:       "Today's best sports, entertainment and business stories"
+url:            http://theevolutionpodcast.com
+lang:           en
+author:         Michael Spartz
+copyright:      "&#x2117; &amp; &#xA9; 2015"
