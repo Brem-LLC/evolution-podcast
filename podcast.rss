@@ -5,8 +5,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
 	<channel>
 		<atom:link href="theevolutionpodcast.com/podcast.rss" rel="self" type="application/rss+xml" />
-		<title>The Evolution Podcast</title>
-		<description>Giving sports, entertainment, and business leaders a platform to tell personal and professional stories of their own 'Evolution'.</description>
+		<title>{{ site.title | xml_escape }}</title>
+		<description>{{ site.description }}</description>
 		<link>theevolutionpodcast.com</link>
 		<language>en</language>
 		<managingEditor>michael@theevolutionpodcast.com (Michael Spartz)</managingEditor>
@@ -17,7 +17,7 @@
 		<image>
 			<link>{{ site.url }}</link>
 			<url>{{ site.url }}/assets/images/itunes.png</url>
-			<title>{{ site.title }}</title>
+			<title>{{ site.title | xml_escape }}</title>
 		</image>
 		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
 		<itunes:author>{{ site.author }}</itunes:author>
