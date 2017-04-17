@@ -1,41 +1,36 @@
 ---
 
 ---
+
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en">
 	<channel>
-		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />
-		<title>{{ site.title }}</title>
-		<description>{{ site.description | xml_escape }}</description>
-		<link>{{ site.url }}</link>
-		<language>{{ site.lang }}</language>
-		<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
-		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
-		<copyright>2017 {{ site.title }}</copyright>
-		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+		<atom:link href="http://www.theevolutionpodcast.com/podcast.rss" rel="self" type="application/rss+xml" />
+		<title>The Evolution Podcast</title>
+		<description>Giving sports, entertainment, and business leaders a platform to tell personal and professional stories of their own 'Evolution'.</description>
+		<link>http://theevolutionpodcast.com/</link>
+		<language>en</language>
+		<managingEditor>michael@theevolutionpodcast.com (Michael Spartz)</managingEditor>
+		<webMaster>michael@theevolutionpodcast.com (Michael Spartz)</webMaster>
+		<copyright>2017 The Evolution Podcast</copyright>
 		<image>
 			<link>{{ site.url }}</link>
-			<url>{{ site.url }}/images/itunes.png</url>
-			<title>{{ site.title }}</title>
+			<url>{{ site.url }}/assets/images/itunes.png</url>
+			<title>The Evolution Podcast</title>
 		</image>
-		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
-		<itunes:author>{{ site.author }}</itunes:author>
-		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
-		<itunes:keywords>{{ site.keywords }}</itunes:keywords>
+		<itunes:subtitle>Today's best sports, entertainment and business stories</itunes:subtitle>
+		<itunes:author>Michael Spartz</itunes:author>
+		<itunes:summary>Giving sports, entertainment, and business leaders a platform to tell personal and professional stories of their own 'Evolution'.</itunes:summary>
 		<itunes:owner>
-			<itunes:name>{{ site.author }}</itunes:name>
-			<itunes:email>{{ site.email }}</itunes:email>
+			<itunes:name>Michael Spartz</itunes:name>
+			<itunes:email>michael@theevolutionpodcast.com</itunes:email>
 		</itunes:owner>
 		<itunes:image href="{{ site.url }}/images/itunes.png" />
-		<itunes:category text="Music" />
-		<itunes:category text="Technology">
-			<itunes:category text="Podcasting" />
+		<itunes:category text="Sports" />
+		<itunes:category text="Entertainment">
 		</itunes:category>
-		<itunes:category text="Society &amp; Culture">
-			<itunes:category text="Philosophy" />
-		</itunes:category>
-		<itunes:explicit>yes</itunes:explicit>
+		<itunes:category text="Business">
+		<itunes:explicit>no</itunes:explicit>
 		{% for post in site.posts %}
 			<item>
 				<title>{{ post.title | xml_escape }}</title>
