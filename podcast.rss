@@ -27,9 +27,8 @@
 		</itunes:owner>
 		<itunes:image href="{{ site.url }}/images/itunes.png" />
 		<itunes:category text="Sports" />
-		<itunes:category text="Entertainment">
-		</itunes:category>
-		<itunes:category text="Business">
+		<itunes:category text="Entertainment" />
+		<itunes:category text="Business" />
 		<itunes:explicit>no</itunes:explicit>
 		{% for post in site.posts %}
 			<item>
