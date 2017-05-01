@@ -10,7 +10,7 @@ keywords:
 - Entertainment
 - Business
 - Welcome
-permalink: /podcast/001-evolution-welcome
+permalink: /podcast/002-chris-burkard
 file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/002-chris-burkard-final.mp3
 file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/002-chris-burkard-final.m4a
 
