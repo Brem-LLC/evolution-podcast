@@ -43,6 +43,31 @@
   padding-bottom: 25px;
 }
 
+.subscription-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fa-apple {
+  color: $itunes;
+}
+
+.fa-rss {
+  color: $google;
+}
+
+.apple {
+  color: #333;
+}
+
+.rss {
+  color: #333;
+}
+
+
+
 .more-episodes {
   border: 1px solid #555;
   width: 95%;
