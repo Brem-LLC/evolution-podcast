@@ -12,7 +12,7 @@ keywords:
 - Welcome
 permalink: /podcast/002-chris-burkard
 file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/002-chris-burkard-final.mp3
-file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/002-chris-burkard-final.m4a
+file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/002-chris-burkard-final.mp3
 
 
 excerpt: Chris Burkard is an accomplished explorer, photographer, creative director, speaker, and author. Get to know why he travels to the ends of the earth to inspire all of us!
