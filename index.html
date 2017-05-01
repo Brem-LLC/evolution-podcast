@@ -5,7 +5,7 @@ layout: default
 <div class="container home-page">
   <h2>More Episodes</h2>
     <div class="row">
-      {% for post in site.posts %}
+      {% for post in site.posts limit:3 offset:1 %}
         <div class="list-episode">
           <h3>{{ post.title }}</h3>
           <p class="podcast-meta">Author: {{ post.author }}</p>
