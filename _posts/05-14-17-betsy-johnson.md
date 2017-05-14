@@ -10,7 +10,7 @@ keywords:
 - Entertainment
 - Business
 - Welcome
-permalink: /podcast/003-mike-whan
+permalink: /podcast/004-Betsy-Johnson
 file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/004-betsy-johnson.mp3 
 file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/004-betsy-johnson.mp3 
 
