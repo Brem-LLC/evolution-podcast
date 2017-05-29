@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mike Small"
+title: "Bobby Frasor"
 author: "Michael Spartz"
 duration: "58:16" #time
 length: 55.9 MB #filesize in bytes
@@ -10,7 +10,7 @@ keywords:
 - Entertainment
 - Business
 - Welcome
-permalink: /podcast/005-Mike-Small
+permalink: /podcast/006-bobby-frasor
 file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/006-bobby-frasor.mp3
 file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/006-bobby-frasor.mp3
 
