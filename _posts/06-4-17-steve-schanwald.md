@@ -15,11 +15,9 @@ file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/
 file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/007-steve-schanwald.mp3
 
 
-excerpt: Steve Schanwald, former EVP of Business Operations of the Chicago Bulls. 
-His story is a true testament of hard work a little bit of luck and a real passion for sports all while utilizing his gift of creating true genuine business and life friendships! Learn how all of that lead to 7 professional championship rings and some great memories along the way.
+excerpt: Steve Schanwald, former EVP of Business Operations of the Chicago Bulls.<br>His story is a true testament of hard work a little bit of luck and a real passion for sports all while utilizing his gift of creating true genuine business and life friendships! Learn how all of that lead to 7 professional championship rings and some great memories along the way.
 
-summary: Steve Schanwald, former EVP of Business Operations of the Chicago Bulls. 
-His story is a true testament of hard work a little bit of luck and a real passion for sports all while utilizing his gift of creating true genuine business and life friendships! Learn how all of that lead to 7 professional championship rings and some great memories along the way.
+summary: Steve Schanwald, former EVP of Business Operations of the Chicago Bulls.<br>His story is a true testament of hard work a little bit of luck and a real passion for sports all while utilizing his gift of creating true genuine business and life friendships! Learn how all of that lead to 7 professional championship rings and some great memories along the way.
 explicit: "no" #other option is no
 block: "no" #means is shown in itunes
 ---
