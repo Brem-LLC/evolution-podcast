@@ -20,6 +20,6 @@ His story is a true testament of hard work a little bit of luck and a real passi
 
 summary: Steve Schanwald, former EVP of Business Operations of the Chicago Bulls. 
 His story is a true testament of hard work a little bit of luck and a real passion for sports all while utilizing his gift of creating true genuine business and life friendships! Learn how all of that lead to 7 professional championship rings and some great memories along the way.
-
 explicit: "no" #other option is no
 block: "no" #means is shown in itunes
+---
