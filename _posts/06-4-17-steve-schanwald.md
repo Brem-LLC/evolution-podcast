@@ -23,4 +23,3 @@ His story is a true testament of hard work a little bit of luck and a real passi
 
 explicit: "no" #other option is no
 block: "no" #means is shown in itunes
----
