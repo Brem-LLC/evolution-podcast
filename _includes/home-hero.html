@@ -1,11 +1,13 @@
 <section class="home-hero">
   <div class="hero-copy">
-    <strong><h2><a href="http://theevolutionpodcast.com/podcasts.html">Robby Klein</a></h2></strong>
-    <h3>Category: Sports | Length: 58:11</h3>
-		<h5>Robby Klein is an entertainment and advertising photographer hailing from New Orleans, LA, currently based in Nashville, TN. Often found surfing in Los Angeles or eating bagels in NYC, Robby has widely become recognized as the photographer to the stars!</h5>
+    {% for podcast in site.data.podcasts limit:1 %}
+    <strong><h2><a href="http://theevolutionpodcast.com/podcasts.html">{{ podcast.title }}</a></h2></strong>
+    <h3>Category: Sports | Length: {{ podcast.length }}</h3>
+		<h5>{{ podcast.summary }}</h5>
     <audio controls>
-      <source src="https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/014-robby-klein.mp3" type="audio/mpeg">
+      <source src="{{ podcast.file }}" type="audio/mpeg">
     Your browser does not support the audio element.
     </audio>
+    {% endfor %}
   </div>
 </section>

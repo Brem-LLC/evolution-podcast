@@ -30,22 +30,22 @@
 		<itunes:category text="Entertainment" />
 		<itunes:category text="Business" />
 		<itunes:explicit>no</itunes:explicit>
-		{% for post in site.posts %}
+		{% for podcast in site.data.podcasts %}
 			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<description>{{ post.excerpt | xml_escape }}</description>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-				<enclosure url="{{ post.file_itunes }}" length="{{ post.duration }}" type="audio/mp3"/>
-				<itunes:author>{{ site.author }}</itunes:author>
-				<itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
-				<itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
-				<itunes:duration>{{ post.duration }}</itunes:duration>
-				<itunes:keywords>{{ post.keywords }}</itunes:keywords>
+				<title>{{ podcast.title | xml_escape }}</title>
+				<link>{{ site.url }}{{ podcast.permalink }}</link>
+				<pubDate>{{ podcast.date | date_to_rfc822 }}</pubDate>
+				<description>{{ podcast.excerpt | xml_escape }}</description>
+				<guid isPermaLink="true">{{ podcast.url }}{{ podcast.url }}</guid>
+				<enclosure url="{{ podcast.file_itunes }}" length="{{ podcast.duration }}" type="audio/mp3"/>
+				<itunes:author>{{ podcast.author }}</itunes:author>
+				<itunes:subtitle>{{ site.title }}: {{ podcast.title }}</itunes:subtitle>
+				<itunes:summary>{{ podcast.summary | xml_escape }}</itunes:summary>
+				<itunes:duration>{{ podcast.duration }}</itunes:duration>
+				<itunes:keywords>{{ podcast.keywords }}</itunes:keywords>
 				<itunes:image href="http://www.theevolutionpodcast.com/assests/images/itunes.png" />
-				<itunes:explicit>{{ post.explicit }}</itunes:explicit>
-				<itunes:block>{{ post.block }}</itunes:block>
+				<itunes:explicit>{{ podcast.explicit }}</itunes:explicit>
+				<itunes:block>{{ podcast.block }}</itunes:block>
 			</item>
 		{% endfor %}
 	</channel>

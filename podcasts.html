@@ -11,16 +11,16 @@ layout: default
       <a href="http://theevolutionpodcast.com/podcast.rss"><i class="fa fa-rss fa-2x" aria-hidden="true"> <span class="rss">RSS Subscribe</span></i></a>
     </div>
 
-  {% for post in site.posts %}
+  {% for podcast in site.data.podcasts %}
     <div class="list-episode">
-      <h3>{{ post.title }}</h3>
-      <p class="podcast-meta">Author: {{ post.author }}</p>
-      <p class="podcast-meta">Date Published: {{ post.date | date: "%B %-d, %Y" }}</p>
-      <p class="podcast-meta">Length: {{ post.duration }}</p>
-      <p class="podcast-meta">Size: {{ post.length }}</p>
-      <p class="podcast-description">{{ post.excerpt | xml_escape }}</p><br>
+      <h3>{{ podcast.title }}</h3>
+      <p class="podcast-meta">Author: {{ podcast.author }}</p>
+      <p class="podcast-meta">Date Published: {{ podcast.date }}</p>
+      <p class="podcast-meta">Length: {{ podcast.duration }}</p>
+      <p class="podcast-meta">Size: {{ podcast.length }}</p>
+      <p class="podcast-description">{{ podcast.excerpt }}</p><br>
       <audio controls>
-        <source src="{{ post.file }}" type="audio/mpeg">
+        <source src="{{ podcast.file }}" type="audio/mpeg">
       Your browser does not support the audio element.
       </audio>
     </div>

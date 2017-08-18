@@ -11,16 +11,16 @@ layout: default
   </div>
 
     <div class="row">
-      {% for post in site.posts limit:3 offset:1 %}
+      {% for podcast in site.data.podcasts limit:3 offset:1 %}
         <div class="list-episode">
-          <h3>{{ post.title }}</h3>
-          <p class="podcast-meta">Author: {{ post.author }}</p>
-          <p class="podcast-meta">Date Published: {{ post.date | date: "%B %-d, %Y" }}</p>
-          <p class="podcast-meta">Length: {{ post.duration }}</p>
-          <p class="podcast-meta">Size: {{ post.length }}</p>
-          <p class="podcast-description">{{ post.excerpt | xml_escape }}</p><br>
+          <h3>{{ podcast.title }}</h3>
+          <p class="podcast-meta">Author: {{ podcast.author }}</p>
+          <p class="podcast-meta">Date Published: {{ podcast.date | date: "%B %-d, %Y" }}</p>
+          <p class="podcast-meta">Length: {{ podcast.duration }}</p>
+          <p class="podcast-meta">Size: {{ podcast.length }}</p>
+          <p class="podcast-description">{{ podcast.excerpt | xml_escape }}</p><br>
           <audio controls>
-            <source src="{{ post.file }}" type="audio/mpeg">
+            <source src="{{ podcast.file }}" type="audio/mpeg">
           Your browser does not support the audio element.
           </audio>
         </div>
