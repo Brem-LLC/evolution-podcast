@@ -1,3 +1,27 @@
+- ep_15:
+  title: Brandon Ruggles
+  author: Michael Spartz
+  duration: 41:19 #Length of Time
+  length: 39.7 MB #filesize in bytes
+  date: August 20, 2017
+  keywords:
+    - Sports
+    - Entertainment
+    - Business
+    - Welcome
+  permalink: /podcast/015-brandon-ruggles
+
+  file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/015-brandon-ruggles.mp3
+
+  file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/015-brandon-ruggles.mp3
+
+  excerpt: Brandon has grown up with basketball. While he asserted himself as a collegiate-level player after grabbing the second-most rebounds of any player in Illinois as a Wheaton Academy senior, Brandon chose to attend the University of Notre Dame as a non-athlete, where he studied finance and developed a passion for the business side of sports. As a Notre Dame freshman, he founded the Mercury Elite basketball program with his parents, Dave and Holly. Only a few years later, the Mercury Elite has grown from one team to nearly forty, making it one of the largest boys' programs in the midwest. Brandon brings half a decade of recruiting experience from his time at the Mercury Elite. Having built the club's recruiting infrastructure independently, he created Dark Horse Sports Recruiting in 2016 in an effort to to take his expertise and serve a larger group of students. Less than a year into operating Dark Horse out of his college dorm room, Brandon expanded the company's services into football through the hires of legendary college football recruiting coordinator Bob Chmiel and former NFL running back Lee Becton. To date, he has placed nearly 100 high school athletes in college basketball programs spanning from the division three to the division one levels while helping those players to earn over $20M in scholarship offers.
+
+  summary: Brandon has grown up with basketball. While he asserted himself as a collegiate-level player after grabbing the second-most rebounds of any player in Illinois as a Wheaton Academy senior, Brandon chose to attend the University of Notre Dame as a non-athlete, where he studied finance and developed a passion for the business side of sports. As a Notre Dame freshman, he founded the Mercury Elite basketball program with his parents, Dave and Holly. Only a few years later, the Mercury Elite has grown from one team to nearly forty, making it one of the largest boys' programs in the midwest. Brandon brings half a decade of recruiting experience from his time at the Mercury Elite. Having built the club's recruiting infrastructure independently, he created Dark Horse Sports Recruiting in 2016 in an effort to to take his expertise and serve a larger group of students. Less than a year into operating Dark Horse out of his college dorm room, Brandon expanded the company's services into football through the hires of legendary college football recruiting coordinator Bob Chmiel and former NFL running back Lee Becton. To date, he has placed nearly 100 high school athletes in college basketball programs spanning from the division three to the division one levels while helping those players to earn over $20M in scholarship offers.
+
+  explicit: no #other option is no
+  block: no #means is shown in itunes
+
 - ep_14:
   title: Robby Klein
   author: Michael Spartz
