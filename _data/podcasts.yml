@@ -1,3 +1,27 @@
+- ep_16:
+  title: Don DiPetta & Chris Distefano
+  author: Michael Spartz
+  duration: 50:42 #Length of Time
+  length: 48.7 MB #filesize in bytes
+  date: August 27, 2017
+  keywords:
+    - Sports
+    - Entertainment
+    - Business
+    - Welcome
+  permalink: /podcast/016-dipetta-distefano
+
+  file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/016-dipetta-distephano.mp3
+
+  file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/016-dipetta-distephano.mp3
+
+  excerpt: Today, you will get to meet both Don DiPetta and Chris Distefano. You might recognize Don DiPetta from the award winning YouTube series, "We're Not Friends". You will need to keep your eyes peeled for his 2nd season coming soon. You will also get introduced to Chris Distefano, who you might recognize from his 3 year run on "MTV's Guy Code", "Girl Code", "Guy Court" as well as his Netflix Series, "Benders". Both guys are hilariously funny and getting the both of them together in the same room was a trip!
+
+  summary: Today, you will get to meet both Don DiPetta and Chris Distefano. You might recognize Don DiPetta from the award winning YouTube series, "We're Not Friends". You will need to keep your eyes peeled for his 2nd season coming soon. You will also get introduced to Chris Distefano, who you might recognize from his 3 year run on "MTV's Guy Code", "Girl Code", "Guy Court" as well as his Netflix Series, "Benders". Both guys are hilariously funny and getting the both of them together in the same room was a trip!
+
+  explicit: no #other option is no
+  block: no #means is shown in itunes
+
 - ep_15:
   title: Brandon Ruggles
   author: Michael Spartz
