@@ -1,4 +1,28 @@
 - ep_16:
+  title: Sammy Silverman
+  author: Michael Spartz
+  duration: 58:49 #Length of Time
+  length: 54 MB #filesize in bytes
+  date: September 3, 2017
+  keywords:
+    - Sports
+    - Entertainment
+    - Business
+    - Welcome
+  permalink: /podcast/017-sammy-silverman
+
+  file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/017-sammy-silverman.mp3
+
+  file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/017-sammy-silverman.mp3
+
+  excerpt: With the College football season getting kicked off this week. I thought it might be worth our while to get it started with a bang! Let's start out with The Ohio State Football! If you are familiar with college sports and the upper echelon programs, you know it's all about the brand, their image and finding new and creative ways to recruit the countries top talent to your university! With that being said, arguably the most recognizable brand, image and recruiting program in College Football is The Ohio State University and Our guest this week, Sammy Silverman is known as the guy behind the brand!
+
+  summary: With the College football season getting kicked off this week. I thought it might be worth our while to get it started with a bang! Let's start out with The Ohio State Football! If you are familiar with college sports and the upper echelon programs, you know it's all about the brand, their image and finding new and creative ways to recruit the countries top talent to your university! With that being said, arguably the most recognizable brand, image and recruiting program in College Football is The Ohio State University and Our guest this week, Sammy Silverman is known as the guy behind the brand!
+
+  explicit: no #other option is no
+  block: no #means is shown in itunes
+
+- ep_16:
   title: Don DiPetta and Chris Distefano
   author: Michael Spartz
   duration: 50:42 #Length of Time
