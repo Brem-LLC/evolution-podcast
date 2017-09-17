@@ -1,3 +1,27 @@
+- ep_19:
+  title: Will Purdue
+  author: Michael Spartz
+  duration: 1:33:33 #Length of Time
+  length: 89.7 MB #filesize in bytes
+  date: September 16, 2017
+  keywords:
+    - Sports
+    - Entertainment
+    - Business
+    - Welcome
+  permalink: /podcast/019-will-perdue
+
+  file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/019-will-perdue.mp3
+
+  file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/019-will-perdue.mp3
+
+  excerpt: Today you are going to get an inside look into the life of a late bloomer who grew up in a town more passionate about Outer Space than the game of basketball.  This skinny kid who was once 6'4" and couldn't even dunk and was cut from his basketball team at age 13. Will Perdue, then went on to become the SEC Athlete of the year, was picked 11th in the NBA Draft by the Chicago Bulls. He later made stops in Portland with the Trailblazers as well as winning his 4th NBA Championship ring with the San Antonio Spurs. You'll hear about a few people stepping into his life, shaping the fundamentals of success for a future in a game that continues to reward him as he is now a radio and tv commentator for the Chicago Bulls as well as other basketball outlets providing knowledge of the game that he acquired over 13 seasons in the NBA.
+
+  summary: Today you are going to get an inside look into the life of a late bloomer who grew up in a town more passionate about Outer Space than the game of basketball.  This skinny kid who was once 6'4" and couldn't even dunk and was cut from his basketball team at age 13. Will Perdue, then went on to become the SEC Athlete of the year, was picked 11th in the NBA Draft by the Chicago Bulls. He later made stops in Portland with the Trailblazers as well as winning his 4th NBA Championship ring with the San Antonio Spurs. You'll hear about a few people stepping into his life, shaping the fundamentals of success for a future in a game that continues to reward him as he is now a radio and tv commentator for the Chicago Bulls as well as other basketball outlets providing knowledge of the game that he acquired over 13 seasons in the NBA.
+
+  explicit: no #other option is no
+  block: no #means is shown in itunes
+
 - ep_18:
   title: Nate Morse and Josh Skiles
   author: Michael Spartz
