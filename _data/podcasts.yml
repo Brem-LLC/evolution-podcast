@@ -1,3 +1,29 @@
+
+
+- ep_20:
+  title: Tyler Hansbrough
+  author: Michael Spartz
+  duration: 54:37 #Length of Time
+  length: 50 MB #filesize in bytes
+  date: September 24, 2017
+  keywords:
+    - Sports
+    - Entertainment
+    - Business
+    - Welcome
+  permalink: /podcast/020-tyler-hansbrough
+
+  file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/020-tyler-hansbrough.mp3
+
+  file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/020-tyler-hansbrough.mp3
+
+  excerpt: Tyler Hansbrough is widely recognized as one of the toughest and most gritty players in the history ACC basketball, after tallying up the most points and rebounds of all time in arguably the best college basketball conference historically & becoming a 3-Time Consensus All-American and National Player of The Year, allowing him to hang in the University of North Carolina Tar Heel rafters next to the likes of Michael Jordan, James Worthy, Antwan Jamison. While, his small town midwestern roots as a middle child have provided him with that toughness, it's his humble perspective that leave one to believe, he might be one of the nicest, more reserved, relaxed and quiet guys with this level of success I've ever been around.  With the spotlight brightly shining on his journey along the way, Tyler has maintained that he keep his circle tight and only allow the people closest to him to really get that inside look at what makes him tick. And our goal today is to give you that glimpse.
+
+  summary: Tyler Hansbrough is widely recognized as one of the toughest and most gritty players in the history ACC basketball, after tallying up the most points and rebounds of all time in arguably the best college basketball conference historically & becoming a 3-Time Consensus All-American and National Player of The Year, allowing him to hang in the University of North Carolina Tar Heel rafters next to the likes of Michael Jordan, James Worthy, Antwan Jamison. While, his small town midwestern roots as a middle child have provided him with that toughness, it's his humble perspective that leave one to believe, he might be one of the nicest, more reserved, relaxed and quiet guys with this level of success I've ever been around.  With the spotlight brightly shining on his journey along the way, Tyler has maintained that he keep his circle tight and only allow the people closest to him to really get that inside look at what makes him tick. And our goal today is to give you that glimpse.
+
+  explicit: no #other option is no
+  block: no #means is shown in itunes
+
 - ep_19:
   title: Will Perdue
   author: Michael Spartz
