@@ -1,4 +1,26 @@
+- ep_21:
+  title: Jake Reid
+  author: Michael Spartz
+  duration: 54:37 #Length of Time
+  length: 46 MB #filesize in bytes
+  date: October 2, 2017
+  keywords:
+    - Sports
+    - Entertainment
+    - Business
+    - Welcome
+  permalink: /podcast/021-jake-reid
 
+  file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/021-jake-reid.mp3
+
+  file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/021-jake-reid.mp3
+
+  excerpt: Today you are going to get an introduction to one of the youngest presidents in all of professional sports! Jake Reid, is soft spoken but confident leader who from a media perspective has flown under the radar. But I think you'll find on today's episode of The Evolution Podcast, that it's the relationships, care for his craft and the people around him that have helped him rise through the ranks in the sports world becoming a 33 year old President of a professional the powerhouse Sporting KC Soccer Club in the MLS that has set him apart from the rest! ​
+
+  summary: Today you are going to get an introduction to one of the youngest presidents in all of professional sports! Jake Reid, is soft spoken but confident leader who from a media perspective has flown under the radar. But I think you'll find on today's episode of The Evolution Podcast, that it's the relationships, care for his craft and the people around him that have helped him rise through the ranks in the sports world becoming a 33 year old President of a professional the powerhouse Sporting KC Soccer Club in the MLS that has set him apart from the rest! ​
+
+  explicit: no #other option is no
+  block: no #means is shown in itunes
 
 - ep_20:
   title: Tyler Hansbrough
