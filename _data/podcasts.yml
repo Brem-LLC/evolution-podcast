@@ -1,4 +1,28 @@
 - ep_22:
+  title: Sal Melilli
+  author: Michael Spartz
+  duration: 35:18 #Length of Time
+  length: 33.2 MB #filesize in bytes
+  date: December 18, 2017
+  keywords:
+    - Sports
+    - Entertainment
+    - Business
+    - Welcome
+  permalink: /podcast/023-sal-melilli
+
+  file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/23-sal-melilli.mp3
+
+  file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/23-sal-melilli.mp3
+
+  excerpt: Today you get introduced to one of the most successful brand managers of one of the most well recognized brands around the globe. Sal Melilli is a man who grew up in his family owned New Jersey Deli not having a clue that one day he would help create one of the most distinct brands in restaurant & food history! As the Chief Operating Officer of Hooters, Sal Melilli has been the man behind the brand for over 26 years and continues to push the envelope, finding new ways to evolve while maintaining the foundation of what has made Hooters a worldwide success for so many years!  What is vary apparent to me is that, the balance in Sal’s life between his work, family, faith & community makes him one of the most likeable real dudes you’ll ever meet!​
+
+  summary: Today you get introduced to one of the most successful brand managers of one of the most well recognized brands around the globe. Sal Melilli is a man who grew up in his family owned New Jersey Deli not having a clue that one day he would help create one of the most distinct brands in restaurant & food history! As the Chief Operating Officer of Hooters, Sal Melilli has been the man behind the brand for over 26 years and continues to push the envelope, finding new ways to evolve while maintaining the foundation of what has made Hooters a worldwide success for so many years!  What is vary apparent to me is that, the balance in Sal’s life between his work, family, faith & community makes him one of the most likeable real dudes you’ll ever meet! ​
+
+  explicit: no #other option is no
+  block: no #means is shown in itunes
+
+- ep_22:
   title: Cody Toppert
   author: Michael Spartz
   duration: 1:31 #Length of Time
