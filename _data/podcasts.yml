@@ -1,4 +1,28 @@
-- ep_22:
+- ep_24:
+  title: George Bloom
+  author: Michael Spartz
+  duration: 45:15 #Length of Time
+  length: 46.2 MB #filesize in bytes
+  date: December 25, 2017
+  keywords:
+    - Sports
+    - Entertainment
+    - Business
+    - Welcome
+  permalink: /podcast/024-george-bloom
+
+  file: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/24-george-bloom.mp3
+
+  file_itunes: https://s3.us-east-2.amazonaws.com/evolution-podcast-files/evolution-2017/24-george-bloom.mp3
+
+  excerpt: On today’s episode, I get a chance to sit down with someone who means a little bit more to me than most of my guests. He’s family and is my moms cousin who has been an all in supporter of this podcast from the get-go! He’s someone who I’ve confided in about my hopes and dreams of what I wanted the podcast to be, and I’ve made sure to garner his professional feedback about how I can continue to evolve as an interviewer in the entertainment world! So not only am I grateful for the time I get to spend with George Bloom, but I get a chance to help tell his seldom heard story to our loyal listeners of The Evolution Podcast!
+
+  summary: On today’s episode, I get a chance to sit down with someone who means a little bit more to me than most of my guests. He’s family and is my moms cousin who has been an all in supporter of this podcast from the get-go! He’s someone who I’ve confided in about my hopes and dreams of what I wanted the podcast to be, and I’ve made sure to garner his professional feedback about how I can continue to evolve as an interviewer in the entertainment world! So not only am I grateful for the time I get to spend with George Bloom, but I get a chance to help tell his seldom heard story to our loyal listeners of The Evolution Podcast!​
+
+  explicit: no #other option is no
+  block: no #means is shown in itunes
+
+- ep_23:
   title: Sal Melilli
   author: Michael Spartz
   duration: 35:18 #Length of Time

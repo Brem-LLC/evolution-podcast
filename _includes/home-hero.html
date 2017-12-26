@@ -2,7 +2,7 @@
   <div class="hero-copy">
     {% for podcast in site.data.podcasts limit:1 %}
     <strong><h2><a href="http://theevolutionpodcast.com/podcasts.html">{{ podcast.title }}</a></h2></strong>
-    <h3>Category: Sports | Length: {{ podcast.length }}</h3>
+    <h3>Category: Sports | Size: {{ podcast.length }}</h3>
 		<h5>{{ podcast.summary }}</h5>
     <audio controls>
       <source src="{{ podcast.file }}" type="audio/mpeg">
