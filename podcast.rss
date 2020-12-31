@@ -3,19 +3,19 @@
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en">
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:itunes="https://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en">
 	<channel>
-		<atom:link href="http://www.theevolutionpodcast.com/podcast.rss" rel="self" type="application/rss+xml" />
+		<atom:link href="https://www.theevolutionpodcast.com/podcast.rss" rel="self" type="application/rss+xml" />
 		<title>The Evolution Podcast</title>
 		<description>Giving sports, entertainment, and business leaders a platform to tell personal and professional stories of their own 'Evolution'.</description>
-		<link>http://theevolutionpodcast.com/</link>
+		<link>https://theevolutionpodcast.com/</link>
 		<language>en</language>
 		<managingEditor>michael@theevolutionpodcast.com (Michael Spartz)</managingEditor>
 		<webMaster>michael@theevolutionpodcast.com (Michael Spartz)</webMaster>
 		<copyright>2017 The Evolution Podcast</copyright>
 		<image>
-			<link>http://www.theevolutionpodcast.com/</link>
-			<url>http://www.theevolutionpodcast.com/assets/images/itunes.png</url>
+			<link>https://www.theevolutionpodcast.com/</link>
+			<url>https://www.theevolutionpodcast.com/assets/images/itunes.png</url>
 			<title>The Evolution Podcast</title>
 		</image>
 		<itunes:subtitle>Today's best sports, entertainment and business stories</itunes:subtitle>
@@ -25,7 +25,7 @@
 			<itunes:name>Michael Spartz</itunes:name>
 			<itunes:email>michael@theevolutionpodcast.com</itunes:email>
 		</itunes:owner>
-		<itunes:image href="http://www.theevolutionpodcast.com/assets/images/itunes.png" />
+		<itunes:image href="https://www.theevolutionpodcast.com/assets/images/itunes.png" />
 		<itunes:category text="Sports" />
 		<itunes:category text="Entertainment" />
 		<itunes:category text="Business" />
@@ -43,7 +43,7 @@
 				<itunes:summary>{{ podcast.summary | xml_escape }}</itunes:summary>
 				<itunes:duration>{{ podcast.duration }}</itunes:duration>
 				<itunes:keywords>{{ podcast.keywords }}</itunes:keywords>
-				<itunes:image href="http://www.theevolutionpodcast.com/assests/images/itunes.png" />
+				<itunes:image href="https://www.theevolutionpodcast.com/assests/images/itunes.png" />
 				<itunes:explicit>{{ podcast.explicit }}</itunes:explicit>
 				<itunes:block>{{ podcast.block }}</itunes:block>
 			</item>

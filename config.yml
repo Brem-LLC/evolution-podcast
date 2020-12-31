@@ -14,7 +14,7 @@
 
 # General Site Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://theevolutionpodcast.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://theevolutionpodcast.com" # the base hostname & protocol for your site, e.g. https://example.com
 
 # Build settings
 markdown: kramdown
@@ -29,7 +29,7 @@ title:          The Evolution Podcast
 email:          michael@theevolutionpodcast.com
 description:    "Giving sports, entertainment, and business leaders a platform to tell personal and professional stories of their own 'Evolution'."
 subtitle:       "Today's best sports, entertainment and business stories"
-url:            http://theevolutionpodcast.com/
+url:            https://theevolutionpodcast.com/
 lang:           en
 author:         Michael Spartz
 copyright:      "&#x2117; &amp; &#xA9; 2015"
