@@ -29,6 +29,12 @@ nav .nine.columns {
   margin-top: 2.5em;
 }
 
+@media (min-width: 800px) {
+  .nav-list {
+    float: right;
+  }
+}
+
 .nav-list a {
   text-decoration: none;
 }
